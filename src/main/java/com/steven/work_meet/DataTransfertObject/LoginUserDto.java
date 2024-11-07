@@ -1,0 +1,12 @@
+package com.steven.work_meet.DataTransfertObject;
+
+import lombok.Data;
+
+@Data
+public class LoginUserDto {
+
+    private String email;
+
+    private String password;
+
+}
